@@ -1,0 +1,203 @@
+   body{
+       font-size: 16px;
+       color: rgb(228, 237, 245);
+     
+       font-family: 'Oxygen', sans-serif;
+  }
+  #header-nav{
+      background-color: purple;
+      border-radius: 0;
+      border: #222;
+      padding-bottom: 15px;
+      color: #222;
+      
+      
+  }
+  
+  .navbar-brand h1{
+      font-family: 'Lora' serif;
+      color: rgb(241, 23, 23);
+      font-size: 1.5em;
+      font-weight: bold;
+      text-shadow: 1px 1px 1px #222;
+      margin-bottom: auto;
+      line-height: .75;
+     
+      
+      
+  }
+
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid rgb(99, 0, 14); 
+  }
+h3{
+    text-align: center;
+}
+#container{
+    
+    color: black;
+    padding: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border:2px;
+    margin-bottom: 15px;
+    
+   
+}
+.row >div{
+    border: 10px solid white;
+    background-color: darkorange;
+}
+#menu_categories{
+    color:black;
+}
+
+
+  /*large devices*/
+@media (min-width: 1200px){
+    
+    .navbar-brand h1{
+        font-family: 'Lora' serif;
+        color: rgb(241, 76, 76);
+       font-weight: bold;
+        text-shadow: 1px 1px 1px #222;
+        margin-top: auto;
+        margin-bottom: auto;
+        line-height: .35;
+        margin-right: auto;
+       margin-left: -100px;
+       padding-top: 10px;
+      }
+    
+}
+
+
+
+/*medium devices*/
+@media (min-width:992px) and (max-width:1199px){
+    
+    .navbar-brand h1{
+        font-family: 'Lora' serif;
+        color: rgb(241, 76, 76);
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #222;
+        margin-top: auto;
+        margin-bottom: auto;
+        line-height: .65;
+        margin-right: auto;
+       margin-left: -50px;
+       padding-top: 10px;
+      }
+     
+     
+}
+
+
+/*small devices*/
+@media (min-width:768px) and (max-width:991px){
+    #nav-list a:hover{
+        background-color: rgb(53, 185, 53);
+    }
+    .navbar-brand h1{
+        font-family: 'Lora' serif;
+        color: rgb(241, 76, 76);
+        font-size: 5vw;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #222;
+        margin-top: auto;
+        margin-bottom: auto;
+        line-height: .75;
+        margin-right: auto;
+       margin-left: -30px;
+       padding-top: 10px;
+      }
+      #nav-list a{
+        color: black;
+        text-align: center;
+    }
+   
+}
+
+
+
+/* very small devices */
+  @media (max-width:767px){
+     
+      .navbar-brand {
+          padding-top: 10px;
+          height: 80px;
+      }
+      
+  
+  .navbar-toggle{
+      position: relative;
+      float: right;
+      padding: 9px 10px;
+      margin-top: 8px;
+      margin-right: 15px;
+      margin-bottom: 8px;
+      background-color: transparent;
+      background-image: none;
+      border: 1px solid rgb(99, 0, 14);
+      border-radius: 4px;
+      
+  }
+  #header-nav{
+    background-color: purple;
+    border-radius: 0;
+    border: #222;
+    padding-bottom: 15px;
+    color: #222;
+  }
+  .navbar-brand h1{
+    font-family: 'Lora' serif;
+    color: rgb(241, 76, 76);
+    font-size: 5vw;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: .75;
+   padding-top: 10px;
+   padding-right: 200px;
+  
+   text-align: justify;
+
+  }
+
+  .navbar-toggle :focus{
+      outline: 0;
+  }
+  .navbar-toggle .icon-bar{
+      display: block;
+      
+      border-radius: 1px;
+  }
+  #nav-list{
+   
+      text-align: center;
+  }
+  
+  #nav-list a{
+      color: black;
+     
+    
+  }
+  #nav-list a:hover{
+      color: cyan;
+    
+  }
+ 
+ .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid rgb(99, 0, 14); 
+}
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -30px;
+}
+#collapsable-nav a span{
+    font-size: 1em;
+    margin-right: 5px;
+}
+
+  }
